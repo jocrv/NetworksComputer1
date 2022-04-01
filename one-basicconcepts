@@ -1,0 +1,84 @@
+DESCRIPTION
+Basic and introductory concepts to computer networks: history, evolution and classification of networks, their fundamental components, applications, representation and general characteristics.
+PURPOSE
+Understand, in a technical way, how the structures of computer networks and their applications work. This subject has direct use in the areas of Computing, Engineering and in several other areas of knowledge, given the protagonism of these networks on a global scale.
+GOALS
+MODULE 1
+Describe the history and evolution of computer networks and the Internet
+MODULE 2
+Classify networks in terms of topology, transmission media and coverage area
+MODULE 3
+Identify the characteristics and peculiarities of wireless networks
+MODULE 1
+ 
+Describe the history and evolution of computer networks and the Internet
+INTRODUCTION
+Below is an introductory video with a historical overview of the evolution of computer networks.
+The field of computer networks continues to evolve rapidly, meeting the growing demands of society. The immense volume of data and the need for instantaneous availability of information represent challenges for computer networks, which evolve to increasingly increase the speed of their connections and treat transmitted data more securely (KLEINROCK, 2008).
+CONCEPTS
+One of the fundamental concepts inherent to computer networks, which caused a paradigm shift in communications and was responsible for the great success of the Internet, is the packet switching paradigm.
+Before the emergence of the Internet, communication networks, such as conventional landline networks, were based on the concept of circuit switching.
+At the time, the big innovation was the paradigm shift to packet switching, which facilitated connectivity and the rapid expansion of computer networks to a global scale.
+CIRCUIT SWITCHING
+In circuit switching, it is necessary to establish a physical circuit between the source and the destination before the transmission of the information itself. Let's take, for example, the illustration of a telephone conversation that uses traditional fixed-line networks.
+Trindade Circuit switching – traditional fixed telephony network
+User A wants to establish a phone call with user B, located in another city.
+By entering user B's telephone number with the respective area code, the local telephone exchange connected to user A's device initiates a signaling process over the telephone network until a physical path (circuit) is established from the network from terminal A to the telephone terminal. from user B.
+By answering the phone, user B confirms the use of this circuit. From there, the conversation (information exchange between users A and B) can be carried out.
+PACKAGE SWITCHING
+ATTENTION
+In packet switching, there are no phases 1 and 3 described above, which comprise the prior establishment of a circuit before data transmission and the disconnection or termination of the established circuit at the end of the communication.
+In this type of switching, information is divided into sets of data called packets, which also carry source and destination identification information within the network.
+Thus, packets are forwarded individually and independently; each intermediate point of the route analyzes the packet's information and decides where to forward it within the network, until it reaches the final destination.
+In the following image, we have an example of a schematic diagram of data transmission between source “A” and destination “B” connected by intermediate nodes (S1, S2, S3, S4, S5 and S6).
+The information was partitioned into four packets (1, 2, 3 and 4) that are forwarded independently within the network until they reach destination “B”.
+ATTENTION
+Note that each packet can take a different path, so the order of arrival at the destination is not preserved. Thus, it is up to the destination node “B” to rearrange the packets in the correct sequence to completely recover the original information transmitted by “A”.
+TENDENCIES
+Computer networks have evolved impressively over the past few decades, and projections point to an even faster development in the coming years. Increasingly, people will depend on computer networks for the use of the most diverse services, with increasing impacts on all areas of society.
+NETWORKS DEFINED BY SOFTWARE
+Given the great evolution and growth of computer networks, these structures began to integrate a large amount and diversity of systems, equipment, devices, links and services, making management tasks quite complicated and expensive.
+Software Defined Networks (SDN: Software Defined Networks) allow you to program network behavior in a centralized and controlled manner through open programming interfaces.
+LINKS
+As we will study in the second module, links represent the physical links between network nodes, using various transmission media (optical fiber, twisted pair, coaxial cable, etc.)
+The central figure in an SDN network is the network controller, through which the manager can establish policies and behaviors, and pass this information directly to the equipment that makes up the network. Thus, the network control plane is independent of the physical characteristics and hardware of each equipment, being implemented now in the network controller.
+NETWORK CONTROLLER
+The network controller is a system that runs on a central server designed to control the entire flow of information on the network in order to facilitate management work and improve the performance of network applications. The controller uses protocols to communicate with the other elements of the network and inform where to forward the packets.
+In the previous image, we saw a representation of the network where the controller has the global view of the topology and acts directly on the equipment to establish the policies defined by the network manager.
+INTERNET OF THINGS
+Connectivity is the keyword of the Internet; thus, the evolution, in the sense of increasing even more the degree of connectivity, brought the technology of the Internet of Things (IoT: Internet of Things).
+The idea behind this initiative is to connect not only computers, smartphones and tablets, but also any device, object and even animals on the network. This would allow all our everyday objects (eg fridge, house door, garbage can, pair of shoes etc.) to exchange data and be used remotely.
+NETWORK FUNCTIONING AND TOPOLOGY
+The following videos cover the most relevant subjects of the content you have just studied.
+Circuit Switching vs Packet Switching
+Software Defined Networks
+internet of things
+CHECKING THE LEARNING
+1. WE STUDY ABOUT THE HISTORY AND EVOLUTION OF COMPUTER NETWORKS. BASED ON THE FACTS REPORTED IN THE CURRENT MODULE, CHOOSE THE CORRECT ALTERNATIVE:
+ARPANET, being a network funded by the United States government, was restricted to American territory.
+Technologies developed for the Internet were essential for the creation of ARPANET.
+Packet switching has brought a paradigm shift in data communication.
+The emergence of LANs and WLANs allowed the establishment of long-range connections between network nodes.
+2. REGARDING CIRCUIT SWITCHING AND PACKAGE SWITCHING, SELECT THE INCORRECT OPTION:
+In circuit switching, the process of transmitting information takes place in three phases.
+In packet switching, each packet is forwarded independently of the others.
+Circuit switching is a technology prior to packet switching.
+In packet switching, the order of reception of packets at the destination is preserved.
+FEEDBACK
+1. We studied the history and evolution of computer networks. Based on the facts reported in the current module, mark the correct alternative:
+Alternative "C" is correct.
+
+
+The introduction of packet switching technology favored the development of computer networks and caused a paradigm shift in relation to circuit switching - previous technology, used mainly by traditional fixed-line networks.
+2. Regarding circuit switching and packet switching, select the wrong option:
+Option "D" is correct.
+
+
+In packet switching, packets are forwarded independently by the nodes on the network, so that each packet can follow a different path than the others. Thus, it is not possible to guarantee that the packets arrive at the destination in the same order in which they were transmitted by the source.
+MODULE 2
+ 
+Classify networks in terms of topology, transmission media and coverage area
+INTRODUCTION
+Computer networks are made up of three fundamental components: nodes, links and protocols.
+WE
+Nodes represent end systems or intermediate systems that are networked together.
